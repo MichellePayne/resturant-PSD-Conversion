@@ -6,7 +6,7 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 // Base Styles
-h1,h2,h3,h4{
+h1,h2,h3{
 	font-family: 'Aguafina Script', cursive;
 }
 h1{
@@ -15,17 +15,24 @@ h1{
 	padding-top:10px;
 }
 h2{
-	font-size: 50px;
+	font-size: 62px;
 	margin:0;
 }
-p{
+h3{
+	font-size: 52px;
+}
+h4{
+	font-size: 22px;
+	font-family: 'Source Sans Pro', sans-serif 600;
+}
+p, ul li{
 	font-family: 'Source Sans Pro', sans-serif;
 	margin:0;
 	line-height: 1.5;
 }
 a{
 	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 18px;
+	font-size: 16px;
 }
 .wrapper{
 	width:80%;
@@ -53,7 +60,7 @@ header{
 }
 .rightTitle{
 	display:flex;
-	width:25%;
+	width:30%;
 	justify-content:flex-end;
 }
 .rightTitle i, .rightTitle p{
@@ -92,13 +99,13 @@ header{
 // end of header
 // about section
 .about{
-	width:65%;
-	margin:100px auto;
+	width:75%;
+	margin:60px auto;
 	display: flex;
 }
 .aboutText{
 	text-align: center;
-	margin: 80px;
+	margin: 40px;
 	padding:10px;
 }
 .aboutText p{
@@ -107,14 +114,47 @@ header{
 // end of about section
 // specials section
 .specials{
-	background-color: #D3D3D3;
+	background-color: rgba(220,220,220, 0.5);
 	background-image: url("../../assets/home page/specials-border.png");
 	background-repeat: no-repeat;
+	background-size: contain;	
 	background-position: center;
-	height:800px;
+	height:700px;
+	position: relative;
+}
+.specials h2{
+	text-align: center;
+	margin:20px;
+}
+.specials h4{
+	text-align: center;
+	text-transform: uppercase;
 }
 .menu{
-
+	margin:70px auto;
+	text-align: left;
+	width:70%;
+}
+.wrap{
+	display: flex;
+	flex-direction:row;
+}
+ul li{
+	list-style-type:none; 
+	padding:10px;
+}
+button{
+	position: absolute;
+	top:85%;
+	left:50%;
+	transform: translate(-50%, -85%);
+	background-color: transparent;
+	color:#000;
+	border:2px solid #000;
+	text-transform: uppercase;
+	padding:5px 15px;
+	font-size: 16px;
+	font-weight: 600;
 }
 
 
@@ -124,3 +164,10 @@ header{
 
 
 
+
+
+
+
+*{
+	border:1px solid red;
+}
