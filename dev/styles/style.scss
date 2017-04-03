@@ -5,9 +5,6 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
-*{
-	border:1px solid red;
-}
 // Base Styles
 h1,h2,h3,h4{
 	font-family: 'Aguafina Script', cursive;
@@ -18,12 +15,22 @@ h1{
 p{
 	font-family: 'Source Sans Pro', sans-serif;
 }
+a{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 18px;
+}
 .wrapper{
 	width:80%;
 	margin:0 auto;
 }
 
 // header
+header{
+	height:100vh;
+	background-image: url("../../assets/home page/hero.jpg");
+	background-position: center;
+	background-size: cover;
+}
 .topHeader{
 	background-color: #000;
 	color:#808080;
@@ -34,7 +41,7 @@ p{
 	justify-content:space-between;
 }
 .title{
-	margin:20px 0;
+	margin:5px;
 }
 .rightTitle{
 	display:flex;
@@ -42,9 +49,26 @@ p{
 	justify-content:flex-end;
 }
 .rightTitle i, .rightTitle p{
-	margin:20px 0;
-	padding:8px 0 8px 8px;
+	margin-top:10px;
+	margin-bottom: 0;
+	padding:5px;
 }
+.navBar{
+	background-color: rgba(0,0,0,0.6);
+	display: flex;
+	justify-content:space-between;
+}
+.navBar nav a{
+	text-decoration: none;
+	color:#fff;
+	text-transform: uppercase;
+	padding:10px;
+}
+.navBar img{
+	padding:10px;
+}
+
+
 
 
 
