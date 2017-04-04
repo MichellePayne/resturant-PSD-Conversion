@@ -156,6 +156,25 @@ button{
 	font-size: 16px;
 	font-weight: 600;
 }
+.cutleryImage{
+	background-color: rgba(220,220,220, 0.5);
+}
+.cutlery{
+	background-image: url("../../assets/home page/cutlery.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	height:300px;
+	
+}
+.reservations{
+	background-image: url("../../assets/header-background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height:400px;
+	text-align: center;
+	color:#fff;
+}
 
 
 
