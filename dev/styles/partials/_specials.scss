@@ -1,0 +1,56 @@
+// specials section
+.specials{
+	background-color: rgba(220,220,220, 0.5);
+	background-image: url("../../assets/home page/specials-border.png");
+	background-repeat: no-repeat;
+	background-size: contain;	
+	background-position: center;
+	height:700px;
+	position: relative;
+}
+.specials h2{
+	text-align: center;
+	margin:20px;
+}
+.specials h4{
+	text-align: center;
+	text-transform: uppercase;
+}
+.menu{
+	margin:70px auto;
+	text-align: left;
+	width:70%;
+}
+.wrap{
+	display: flex;
+	flex-direction:row;
+}
+ul li{
+	list-style-type:none; 
+	padding:10px;
+}
+.allMenu{
+	position: absolute;
+	top:85%;
+	left:50%;
+	transform: translate(-50%, -85%);
+	background-color: transparent;
+	color:#000;
+	border:2px solid #000;
+	text-transform: uppercase;
+	padding:5px 15px;
+	font-size: 16px;
+	font-weight: 600;
+}
+.cutleryImage{
+	background-color: rgba(220,220,220, 0.5);
+}
+.cutlery{
+	background-image: url("../../assets/home page/cutlery.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	height:300px;
+	
+}
+// end of menu section

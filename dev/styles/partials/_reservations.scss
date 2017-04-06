@@ -1,0 +1,37 @@
+// reservations section
+.reservations{
+	background-image: url("../../assets/header-background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height:400px;
+	text-align: center;
+	color:#fff;
+}
+.reservations h2{
+	margin:10px;
+}
+.reservations p{
+	margin:10px;
+}
+form{
+	width:70%;
+	margin:0 auto;
+	display: flex;
+	flex-wrap:wrap;
+}
+input{
+	margin:13px;
+	width:300px;
+	padding:5px;
+}
+.inputSpecial{
+	width:200px;
+}
+.book{
+	background-color: red;
+	color:#fff;
+	width: 173px;	
+	margin:10px;
+	padding:0 35px;
+}
+// end of reservation section

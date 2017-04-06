@@ -1,0 +1,55 @@
+// header
+.index{
+	height:100vh;
+	background-image: url("../../assets/home page/hero.jpg");
+	background-position: center;
+	background-size: cover;
+}
+.topHeader{
+	background-color: #000;
+	color:#808080;
+	font-size: 14px;
+}
+
+.title{
+	margin:5px;
+}
+.rightTitle{
+	display:flex;
+	width:30%;
+	justify-content:flex-end;
+}
+.rightTitle i, .rightTitle p{
+	margin-top:10px;
+	margin-bottom: 0;
+	padding:5px;
+}
+.navBar{
+	background-color: rgba(0,0,0,0.6);
+	display: flex;
+	justify-content:space-between;
+}
+.navBar nav a{
+	text-decoration: none;
+	color:#fff;
+	text-transform: uppercase;
+	padding:10px;
+}
+.navBar img{
+	padding:10px;
+}
+.logo{
+	color:#fff;
+	text-align: center;
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+}
+.logo p{
+	font-size: 30px;
+}
+.star{
+	padding:0 10px;
+}
+// end of header

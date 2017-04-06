@@ -1,0 +1,34 @@
+// start services
+.services{
+	background-color: #F5F5F5;
+	height:600px; 
+	text-align: center;
+}
+.services h2, .services p{
+	width:50%;
+	text-align: center;
+	margin:10px auto;
+}
+.services p{
+	margin-bottom: 60px;
+}
+.gridBox{
+	display: flex;
+}
+.grid{
+	position: relative;
+}
+.grid img{
+	margin-top:20px;
+	position: absolute;
+	top:-53px;
+	left:64px;
+}
+.grid h4{
+	background-color: #fff;
+	padding-top: 40%;
+	height:150px;
+	width:250px;
+	text-transform: uppercase;
+}
+// end of services 
