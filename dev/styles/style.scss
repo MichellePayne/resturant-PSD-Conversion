@@ -17,6 +17,7 @@ h1{
 h2{
 	font-size: 62px;
 	margin:0;
+	padding-top: 10px;
 }
 h3{
 	font-size: 52px;
@@ -284,26 +285,29 @@ input{
 .address p{
 	padding:8px;
 }
+// end of newsletter
+// start of footer
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-*{
-	border:1px solid red;
+footer{
+	background-image: url("../../assets/header-background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height:200px;
+	text-align: center;
+	color: rgba(0,0,0,0.9);
+	padding:20px;
 }
+footer p{
+	padding:20px;
+}
+footer img{
+	border-radius: 50%;
+	background-color: rgba(0,0,0,0.9);
+	padding:15px ;
+}
+span{
+	color: #fff;
+}
+
+
+
