@@ -9,25 +9,8 @@
 @import 'partials/newsletter';
 @import 'partials/footer';
 @import 'partials/menu';
-*{
-	border: 1px solid red;
-}
 
-.dinner, .breakfast, .lunch, .wine{
-	width:70%;
-	margin:0 auto;
-}
-.grid{	
-	display: flex;
-	justify-content:space-between;
-}
-.menuGrid{
-	display: flex;
-}
-.menuGrid ul{
-	margin:0;
-	padding:0 20px 0 0;
-}
+
 
 
 

@@ -12,6 +12,38 @@
 	padding:10px;
 	margin:5px;
 }
-.menuNav img{
-	margin: 10px;
+.menuTitle img{
+	margin: 10px auto;
 }
+.dinner, .breakfast, .lunch, .wine{
+	width:80%;
+	margin:0 auto;
+}
+.grid{	
+	display: flex;
+	justify-content:space-between;
+	padding:0 50px 30px 0;
+}
+.dinner h4, .breakfast h4, .lunch h4 , .wine h4{
+	padding: 0 50px;
+}
+.menuGrid{
+	display: flex;
+}
+.menuGrid ul{
+	margin:0;
+	padding:0 50px 0 0;
+}
+.menuGallery{
+	display: flex;
+}
+ img{
+	padding:0;
+	margin:0;
+	  display: block;
+  	max-width:360px;
+  	max-height:270px;
+  	width: auto;
+  	height: auto;
+}
+
