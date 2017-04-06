@@ -8,25 +8,26 @@
 @import 'partials/prefooter';
 @import 'partials/newsletter';
 @import 'partials/footer';
-
-.menuTitle{
-	background-image: url("../../assets/header-background.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;
-	text-align: center;
-	color:#fff;
-	padding:10px;
-}
-.menuNav a{
-	color: #fff;
-	text-decoration: none;
-	padding:10px;
-	margin:5px;
-}
-.menuNav img{
-	margin: 10px;
+@import 'partials/menu';
+*{
+	border: 1px solid red;
 }
 
+.dinner, .breakfast, .lunch, .wine{
+	width:70%;
+	margin:0 auto;
+}
+.grid{	
+	display: flex;
+	justify-content:space-between;
+}
+.menuGrid{
+	display: flex;
+}
+.menuGrid ul{
+	margin:0;
+	padding:0 20px 0 0;
+}
 
 
 
