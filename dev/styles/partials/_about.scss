@@ -4,11 +4,37 @@
 	margin:60px auto;
 	display: flex;
 }
+@media (max-width: 940px) {
+	.about{
+		width:80%;
+		margin: 50px auto;
+	}
+}
+@media (max-width: 800px) {
+	.about{
+		flex-direction:column;
+		margin:40px auto;
+	}
+}
 .aboutText{
 	text-align: center;
 	margin: 40px;
 	padding:10px;
 }
+@media (max-width: 940px) {
+	.aboutText{
+		margin:30px;
+	}
+}
 .aboutText p{
 	padding-top: 10px;
+}
+
+.aboutImg{
+	margin: 60px auto;
+}
+@media (max-width: 940px) {
+	.aboutImg{
+		margin:50px auto;
+	}
 }
