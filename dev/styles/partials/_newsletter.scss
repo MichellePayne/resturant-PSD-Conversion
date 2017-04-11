@@ -8,9 +8,48 @@
 	margin:0 auto;
 	display: flex;
 }
+@media (max-width: 1200px){
+	.newsWrap{
+		width:100%;
+	}
+}
+@media (max-width: 940px) {
+	.newsWrap{
+		flex-direction:column;
+	}
+}
+
 .news, .hours, .address{
 	width:33.33%;
 	padding:20px;
+}
+@media (max-width: 940px) {
+	.news, .hours, .address{
+		padding:10px;
+		margin:0 auto;
+	}
+}
+@media (max-width: 940px) {
+	.news{
+		width:70%;
+		text-align: center;
+	}
+}
+@media (max-width: 940px) {
+	.hours{
+		width:50%;
+	}
+}
+@media (max-width: 540px) {
+	.hours{
+		width:70%;
+	}
+}
+@media (max-width: 940px) {
+	.address{
+		width:50%;
+		text-align: center;
+	}
 }
 .news input{
 	margin-left:0;
