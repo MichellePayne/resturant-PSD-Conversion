@@ -4,6 +4,11 @@
 	height:600px; 
 	text-align: center;
 }
+@media (max-width: 940px) {
+	.services{
+		height:300px;
+	}
+}
 .services h2, .services p{
 	width:50%;
 	text-align: center;
@@ -15,9 +20,15 @@
 .gridBox{
 	display: flex;
 }
+@media (max-width: 1200px) {
+	.gridBox{
+		display: none;
+	}
+}
 .grid{
 	position: relative;
 }
+
 .grid img{
 	margin-top:20px;
 	position: absolute;

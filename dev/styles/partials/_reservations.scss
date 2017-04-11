@@ -7,11 +7,21 @@
 	text-align: center;
 	color:#fff;
 }
+@media (max-width: 940px) {
+	.reservations{
+		display: none;
+	}
+}
 .reservations h2{
 	margin:10px;
 }
 .resImg{
 	margin:0 auto;
+}
+@media (max-width: 940px) {
+	.resImg{
+		display: none;
+	}
 }
 .reservations p{
 	margin:10px;
