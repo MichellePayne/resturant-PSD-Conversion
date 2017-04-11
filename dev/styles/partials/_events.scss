@@ -7,11 +7,22 @@
 	background-position: center;
 	width: 80%;
 }
+@media (max-width: 1200px) {
+	.events{
+		margin: 0 auto;
+		width:85%;
+	}
+}
 
 .eventsText{
 	text-align: center;
 	width:80%;
 	margin: 0 auto; 
+}
+@media (max-width: 1200px) {
+	.eventsText{
+		width:85%;
+	}
 }
 .eText{
 	display:flex;
@@ -19,12 +30,28 @@
 	padding:35px;
 	margin: auto;
 }
+@media (max-width: 1200px) {
+	.eText{
+		padding:15px;
+	}
+}
 .eText img{
 	padding:10px;
+}
+@media (max-width: 1200px) {
+	.eText img{
+		display: none;
+	}
 }
 .ePText{
 	padding:35px;
 	margin: 20px;	
+}
+@media (max-width: 1200px) {
+	.ePText{
+		margin: 10px;
+		padding:10px;
+	}
 }
 .map{
 	background-image: url("../../assets/events page/event-02.jpg");
@@ -34,6 +61,11 @@
 	width: 80%;
 	background-position: center;
 	margin:80px auto;
+}
+@media (max-width: 1200px) {
+	.map{
+		display: none;
+	}
 }
 .mapButton{
 	width:80%;
