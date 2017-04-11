@@ -10,18 +10,24 @@
 	color:#808080;
 	font-size: 14px;
 }
+@media (max-width: 940px) {
+	.topHeader{
+		display: none;
+	}
+}
 
 .title{
 	margin:5px;
+	width:50%;
+	display: flex;
+	justify-content:flex-start;
 }
 .rightTitle{
 	display:flex;
-	width:30%;
+	width:50%;
 	justify-content:flex-end;
 }
 .rightTitle i, .rightTitle p{
-	margin-top:10px;
-	margin-bottom: 0;
 	padding:5px;
 }
 .navBar{
@@ -35,9 +41,23 @@
 	text-transform: uppercase;
 	padding:10px;
 }
+
+
+@media (max-width: 940px) {
+	.navBar nav a{
+		padding:5px;
+	}
+}
+
 .navBar img{
 	padding:10px;
 }
+@media (max-width: 940px) {
+	.navBar img{
+		padding:5px;
+	}
+}
+
 .logo{
 	color:#fff;
 	text-align: center;
