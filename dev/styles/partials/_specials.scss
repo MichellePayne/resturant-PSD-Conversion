@@ -8,6 +8,11 @@
 	height:700px;
 	position: relative;
 }
+@media (max-width: 940px) {
+	.specials{
+		display:none;
+	}
+}
 .specials h2{
 	text-align: center;
 	margin:20px;
@@ -44,6 +49,11 @@ ul li{
 }
 .cutleryImage{
 	background-color: rgba(220,220,220, 0.5);
+}
+@media (max-width: 940px) {
+	.cutleryImage{
+		display: none;
+	}
 }
 .cutlery{
 	background-image: url("../../assets/home page/cutlery.png");
